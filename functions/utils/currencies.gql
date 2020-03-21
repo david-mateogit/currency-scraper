@@ -1,0 +1,8 @@
+type Currency {
+  name: String!
+  amount: Float!
+}
+
+type Query {
+  allCurrencies: [Currency!]!
+}
