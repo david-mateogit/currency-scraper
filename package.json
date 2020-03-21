@@ -19,12 +19,12 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1"
   },
-
   "keywords": [
     "scraper, JAMstack"
   ],
   "license": "MIT",
   "scripts": {
+    "prebuild": "cd functions && npm i",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
